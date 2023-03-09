@@ -1,0 +1,46 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/shop/index",
+        "pages/user/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "商品中心购物",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+      "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/img/index.png",
+        "selectedIconPath": "/img/index-active.png"
+      },{
+        "pagePath": "pages/shop/index",
+        "text": "商品中心",
+        "iconPath": "/img/index.png",
+        "selectedIconPath": "/img/index-active.png"
+      },{
+        "pagePath": "pages/user/index",
+        "text": "个人中心",
+        "iconPath": "/img/index.png",
+        "selectedIconPath": "/img/index-active.png"
+      }]
+    }, 
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

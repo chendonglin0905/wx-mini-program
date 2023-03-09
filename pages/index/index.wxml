@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <button type="primary" bindtap="click">测试</button>
+  <input value="{{value}}" bindinput="printValue"></input>
+</view>
