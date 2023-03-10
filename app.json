@@ -24,10 +24,10 @@
       },{
         "pagePath": "pages/user/index",
         "text": "个人中心",
-        "iconPath": "/img/index.png",
-        "selectedIconPath": "/img/index-active.png"
+        "iconPath": "/img/user.png",
+        "selectedIconPath": "/img/user-active.png"
       }]
-    }, 
+    },   
     "style": "v2",
     "sitemapLocation": "sitemap.json"
 }

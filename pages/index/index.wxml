@@ -1,5 +1,13 @@
 <!--index.wxml-->
-<view class="container">
-  <button type="primary" bindtap="click">测试</button>
-  <input value="{{value}}" bindinput="printValue"></input>
+<view>
+  <swiper class="swaper" indicator-dots="true" autoplay="true" interval="10000">
+<swiper-item>
+  <image src="https://img0.baidu.com/it/u=720102753,2194976495&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=1000"></image>
+</swiper-item>
+<swiper-item>
+  <image src="https://img2.baidu.com/it/u=2126346176,3832389227&fm=253&app=138&size=w931&n=0&f=JPEG&fmt=auto?sec=1678467600&t=a09868cb03a6f93abd0fcd4713156701"></image>
+</swiper-item>
+</swiper>
 </view>
+
+
