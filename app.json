@@ -18,9 +18,9 @@
         "selectedIconPath": "/img/index-active.png"
       },{
         "pagePath": "pages/shop/index",
-        "text": "商品中心",
-        "iconPath": "/img/index.png",
-        "selectedIconPath": "/img/index-active.png"
+        "text": "消息中心",
+        "iconPath": "/img/message.png",
+        "selectedIconPath": "/img/message-active.png"
       },{
         "pagePath": "pages/user/index",
         "text": "个人中心",

@@ -8,26 +8,27 @@
 }
 .gridList{
   width: 100%;
-  height: 1000rpx;
   display: flex;
   flex-wrap: wrap;
+  border-top:1rpx solid #efefef;
+  border-left:1rpx solid #efefef;
 }
   .gridItem{
-    border:1px solid red;
-   width: 31.3%;
-   height: 31.3%;
-   margin: 1px;
-   display: flex;
-   flex-direction: row;
+    border-right:1px solid #efefef;
+    border-bottom:1px solid #efefef;
+   width: 33.33%;
+   height: 200rpx;
+   display: flex;  
+   flex-direction: column;
+   justify-content:center;
+   align-items: center;
+   box-sizing: border-box;
   }
   .gridItem image {
-    height: 50%;
-    width: 50%;
-   border:1px solid black;
+    height: 60rpx;
+    width: 60rpx;
   }
   .gridItem text {
-    height: 20%;
-    width: 50%;
-    width:10%
-    border: 1px solid red;
+    font-size: 24rpx;
+    margin-top:10rpx;
   }
