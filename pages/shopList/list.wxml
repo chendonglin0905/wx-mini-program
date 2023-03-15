@@ -1,0 +1,24 @@
+<view class="shopList">
+<view class="shopListItem">
+<view class="itemImg">
+  <image src="/img/food.webp"></image>
+</view>
+<view class="itemInfo">
+  <text>中国大饭店</text>
+  <text>地址：长沙市岳麓区大学城</text>
+  <text>电话：19034394839</text>
+  <text>营业时间周一到周日上午10到晚上11点43443</text>
+</view>
+</view>
+<view class="shopListItem">
+<view class="itemImg">
+  <image src="/img/food.webp"></image>
+</view>
+<view class="itemInfo">
+  <text>中国大饭店</text>
+  <text>地址：长沙市岳麓区大学城</text>
+  <text>电话：19034394839</text>
+  <text>营业时间周一到周日上午10到晚上11点5454545</text>
+</view>
+</view>
+</view>

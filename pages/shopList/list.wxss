@@ -1,0 +1,33 @@
+.shopList{
+  display: flex;
+  flex-direction: column;
+  background-color: #efefef;
+}
+
+.shopListItem{
+  display: flex;
+  flex-direction: row;
+  background-color:white;
+  margin: 10rpx
+}
+
+.itemImg image{
+  width: 200rpx;
+  height: 240rpx;
+}
+
+.itemInfo{
+  display: flex;
+  flex-direction: column;
+  margin-left:10rpx ;
+}
+
+.itemInfo text:first-child{
+  font-weight:600;
+}
+
+.itemInfo text{
+  font-weight:200;
+  font-size: 30rpx;
+  padding: 1px;
+}
