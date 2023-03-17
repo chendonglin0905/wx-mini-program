@@ -1,1 +1,116 @@
-/* pages/user/index.wxss */
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  background-color: #efefef;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.baseInfo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 140rpx;
+  justify-content: space-around;
+  background-color: white;
+  padding: 20rpx;
+}
+
+.avatar {
+  align-items: center;
+  height: 100%;
+  width: 140rpx;
+}
+
+.avatar image {
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 50%;
+  border: 1px solid#efefef;
+}
+
+.username {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.username view:first-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 1500;
+}
+
+.username view:first-child image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.username .level image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.username image {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.arrow {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 0rpx;
+}
+
+.arrow image {
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.userData {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  justify-content: space-around;
+  padding: 10rpx;
+}
+
+.userData view {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rpx;
+  align-items: center;
+  font-size: 30rpx;
+}
+
+.setList {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+  background: white;
+}
+
+.setList view {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1rpx solid #efefef;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100rpx;
+}
+
+.setList view text {
+  font-size: 30rpx;
+  margin-left: 10rpx;
+}
+
+.setList view image {
+  display: flex;
+  flex-direction: row;
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 20rpx;
+}

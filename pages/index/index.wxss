@@ -1,34 +1,39 @@
 /**index.wxss**/
-.swaper{
+.swaper {
   height: 300rpx;
 }
-.swaper image{
+
+.swaper image {
   width: 100%;
   flex-direction: row;
 }
-.gridList{
+
+.gridList {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  border-top:1rpx solid #efefef;
-  border-left:1rpx solid #efefef;
+  border-top: 1rpx solid #efefef;
+  border-left: 1rpx solid #efefef;
 }
-  .gridItem{
-    border-right:1px solid #efefef;
-    border-bottom:1px solid #efefef;
-   width: 33.33%;
-   height: 200rpx;
-   display: flex;  
-   flex-direction: column;
-   justify-content:center;
-   align-items: center;
-   box-sizing: border-box;
-  }
-  .gridItem image {
-    height: 60rpx;
-    width: 60rpx;
-  }
-  .gridItem text {
-    font-size: 24rpx;
-    margin-top:10rpx;
-  }
+
+.gridItem {
+  border-right: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  width: 33.33%;
+  height: 200rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.gridItem image {
+  height: 60rpx;
+  width: 60rpx;
+}
+
+.gridItem text {
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}

@@ -1,2 +1,65 @@
-<!--pages/user/index.wxml-->
-<text>pages/user/index.wxml</text>
+<view class="userInfo">
+  <view class="baseInfo">
+    <view class="avatar">
+      <image src="/img/avatar.png"></image>
+    </view>
+    <view class="username">
+      <view>
+        <text>理了个发342442411</text>
+        <image src="/img/two_code.png"></image>
+      </view>
+      <view class="level">
+        <image src="/img/level.png"></image>
+      </view>
+    </view>
+    <view class="arrow">
+      <image src="/img/arrows.png"></image>
+    </view>
+  </view>
+
+  <view class="userData">
+    <view>
+      <text>4</text>
+      <text>关注</text>
+    </view>
+    <view>
+      <text>40</text>
+      <text>粉丝</text>
+    </view>
+    <view>
+      <text>30</text>
+      <text>动态</text>
+    </view>
+  </view>
+
+  <view class="setList">
+    <view>
+      <text>我的装备</text>
+      <image src="/img/arrows.png"></image>
+    </view>
+    <view>
+      <text>运动成绩</text>
+      <image src="/img/arrows.png"></image>
+    </view>
+    <view>
+      <text>我的奖章</text>
+      <image src="/img/arrows.png"></image>
+    </view>
+    <view>
+      <text>身体数据</text>
+      <image src="/img/arrows.png"></image>
+    </view>
+    <view>
+      <text>好友排行</text>
+      <image src="/img/arrows.png"></image>
+    </view>
+    <view>
+      <text>我的收藏</text>
+      <image src="/img/arrows.png"></image>
+    </view>
+    <view>
+      <text>企业团队服务</text>
+      <image src="/img/arrows.png"></image>
+    </view>
+  </view>
+</view>

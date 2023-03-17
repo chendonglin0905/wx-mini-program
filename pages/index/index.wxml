@@ -1,17 +1,15 @@
 <!--index.wxml-->
 <view>
   <swiper class="swaper" indicator-dots="true" autoplay="true" interval="5000">
-<swiper-item wx:for="{{swiperList}}"> 
-  <image src="{{item}}" mod="widthFix"></image> 
+    <swiper-item wx:for="{{swiperList}}">
+      <image src="{{item}}" mod="widthFix"></image>
     </swiper-item>
-</swiper> 
+  </swiper>
 </view>
 
-<view class="gridList"> 
+<view class="gridList">
   <navigator wx:for="{{middleContent}}" url="/pages/shopList/list" class="gridItem">
-  <image src="{{item.iconPath}}"></image>
-  <text>{{item.text}}</text> 
+    <image src="{{item.iconPath}}"></image>
+    <text>{{item.text}}</text>
   </navigator>
 </view>
-
-

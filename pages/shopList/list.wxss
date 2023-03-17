@@ -1,33 +1,33 @@
-.shopList{
+.shopList {
   display: flex;
   flex-direction: column;
   background-color: #efefef;
 }
 
-.shopListItem{
+.shopListItem {
   display: flex;
   flex-direction: row;
-  background-color:white;
-  margin: 10rpx
+  background-color: white;
+  margin: 10rpx;
 }
 
-.itemImg image{
+.itemImg image {
   width: 200rpx;
   height: 240rpx;
 }
 
-.itemInfo{
-  display: flex;
+.itemInfo {
+display: flex;
   flex-direction: column;
-  margin-left:10rpx ;
+  margin-left: 10rpx;
 }
 
-.itemInfo text:first-child{
-  font-weight:600;
+.itemInfo text:first-child {
+  font-weight: 600;
 }
 
-.itemInfo text{
-  font-weight:200;
+.itemInfo text {
+  font-weight: 200;
   font-size: 30rpx;
   padding: 1px;
 }

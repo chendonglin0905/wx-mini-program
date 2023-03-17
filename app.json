@@ -8,7 +8,6 @@
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "商品中心购物",
         "navigationBarTextStyle": "black"
     },
     "tabBar": {
